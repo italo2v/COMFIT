@@ -15,11 +15,17 @@ You will also need a MongoDB database, NodeJS and RabbitMQ Connector installed t
 
 Download and install RabbitMQ from: https://www.rabbitmq.com/
 
-Rename the folder web2compile/projects/italo2v to your GitHub account login to see some examples of a Hello Word in ContikiOS and a Blink in TinyOS.
-
 Run mongod and rabbitmq-server to start the database and the message broker.
 
+Rename the folder web2compile/projects/italo2v to your GitHub account login to see some examples of a Hello Word in ContikiOS and a Blink in TinyOS.
+
 Just run startup-all-in-one.js to provide FLUX platform, Orion Editor (http://localhost:3000).
+
+You need python (v2.7) installed to run web2compile, and install python packages bottle, pexpect, pycurl, beaker.
+
+Run "pip install bottle pexpect pycurl beaker"to install all packages.
+
+
 Run web2compile/webserver.py to provide TinyOS and ContikiOS simulations (http://localhost:8080/).
 
 Enjoy :)

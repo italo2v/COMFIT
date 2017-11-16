@@ -23,7 +23,7 @@ Just run startup-all-in-one.js to provide FLUX platform, Orion Editor (http://lo
 
 You need python (v2.7) installed to run web2compile, and install python packages bottle, pexpect, pycurl, beaker.
 
-Run "pip install bottle pexpect pycurl beaker"to install all packages.
+Run "pip install bottle pexpect pycurl beaker" to install all packages.
 
 
 Run web2compile/webserver.py to provide TinyOS and ContikiOS simulations (http://localhost:8080/).

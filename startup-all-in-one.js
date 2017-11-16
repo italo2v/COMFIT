@@ -77,7 +77,7 @@ function express_static(path, noCache) {
 
 app.use(app.router);
 app.use("/", express_static(pathResolve(__dirname, 'flux-static'), "noCache"));
-app.use("/web2compile", express_static(__dirname + '/web2compile'));
+app.use("/web2compile", express_static(__dirname + '/editor'));
 app.use("/web2compile/js/URIjs", express_static(__dirname + '/node_modules/URIjs/src'));
 app.use("/orion-plugin",  express_static(pathResolve(__dirname, 'flux.orion.integration')));
 

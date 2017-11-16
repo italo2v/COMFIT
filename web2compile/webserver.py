@@ -38,7 +38,7 @@ mongo_port = 27017
 #OAuth GitHub Config
 client_id = 'your_id'
 client_secret = 'your_secret'
-redirect_uri = 'http://yourdomain.com:3000/auth/github/callback'
+redirect_uri = 'http://yourdomain.com:8080/auth/github/callback'
 
 
 #conecting to database

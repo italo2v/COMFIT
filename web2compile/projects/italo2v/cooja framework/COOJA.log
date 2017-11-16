@@ -1,0 +1,34 @@
+[15:20:23 - main] [GUI.java:3159] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[15:20:23 - main] [GUI.java:1325] [INFO] - > Starting Cooja
+[15:20:23 - main] [GUI.java:2846] [INFO] - External tools default settings: /external_tools_linux_64.config
+[15:20:23 - main] [GUI.java:2878] [WARN] - Error when reading user settings from: /root/.cooja.user.properties
+[15:20:24 - main] [Simulation.java:423] [INFO] - Simulation random seed: 123456
+[15:20:24 - main] [CompileContiki.java:140] [INFO] - > make hello-world.cooja TARGET=cooja 
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> 
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> > make hello-world.cooja TARGET=cooja 
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >>   CC        ../../platform/cooja/./contiki-cooja-main.c
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> ../../platform/cooja/./contiki-cooja-main.c:38:17: fatal error: jni.h: No such file or directory
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> compilation terminated.
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> make: *** [contiki-cooja-main.o] Error 1
+[15:20:24 - main] [ContikiMoteType.java:332] [FATAL] - >> Process returned error code 2
+[15:20:24 - main] [ContikiMoteType.java:335] [FATAL] - Compilation error: Bad return value
+[15:20:24 - main] [GUI.java:1347] [FATAL] - Exception when loading simulation: 
+se.sics.cooja.GUI$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+	at se.sics.cooja.GUI.loadSimulationConfig(GUI.java:3428)
+	at se.sics.cooja.GUI.loadSimulationConfig(GUI.java:3340)
+	at se.sics.cooja.GUI.quickStartSimulationConfig(GUI.java:1340)
+	at se.sics.cooja.GUI.main(GUI.java:3218)
+Caused by: se.sics.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+	at se.sics.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:322)
+	at se.sics.cooja.contikimote.ContikiMoteType.setConfigXML(ContikiMoteType.java:1389)
+	at se.sics.cooja.Simulation.setConfigXML(Simulation.java:681)
+	at se.sics.cooja.GUI.loadSimulationConfig(GUI.java:3410)
+	... 3 more
+Caused by: se.sics.cooja.MoteType$MoteTypeCreationException: Bad return value
+	at se.sics.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+	at se.sics.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+	at se.sics.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:310)
+	... 6 more
+Caused by: se.sics.cooja.MoteType$MoteTypeCreationException: 
+	at se.sics.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+	at java.lang.Thread.run(Thread.java:745)

@@ -1,0 +1,104 @@
+Random seed: 123456
+73000:8:Contiki 2.7 started. Node id is set to 8.
+73000:8:Rime started with address 8.0
+73000:8:MAC 08:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+73000:8:Starting 'Hello world process'
+73000:8:Hello, world
+190000:11:Contiki 2.7 started. Node id is set to 11.
+190000:11:Rime started with address 11.0
+190000:11:MAC 0b:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+190000:11:Starting 'Hello world process'
+190000:11:Hello, world
+236000:2:Contiki 2.7 started. Node id is set to 2.
+236000:2:Rime started with address 2.0
+236000:2:MAC 02:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+236000:2:Starting 'Hello world process'
+236000:2:Hello, world
+250000:6:Contiki 2.7 started. Node id is set to 6.
+250000:6:Rime started with address 6.0
+250000:6:MAC 06:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+250000:6:Starting 'Hello world process'
+250000:6:Hello, world
+326000:18:Contiki 2.7 started. Node id is set to 18.
+326000:18:Rime started with address 18.0
+326000:18:MAC 12:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+326000:18:Starting 'Hello world process'
+326000:18:Hello, world
+348000:4:Contiki 2.7 started. Node id is set to 4.
+348000:4:Rime started with address 4.0
+348000:4:MAC 04:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+348000:4:Starting 'Hello world process'
+348000:4:Hello, world
+382000:1:Contiki 2.7 started. Node id is set to 1.
+382000:1:Rime started with address 1.0
+382000:1:MAC 01:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+382000:1:Starting 'Hello world process'
+382000:1:Hello, world
+402000:7:Contiki 2.7 started. Node id is set to 7.
+402000:7:Rime started with address 7.0
+402000:7:MAC 07:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+402000:7:Starting 'Hello world process'
+402000:7:Hello, world
+450000:14:Contiki 2.7 started. Node id is set to 14.
+450000:14:Rime started with address 14.0
+450000:14:MAC 0e:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+450000:14:Starting 'Hello world process'
+450000:14:Hello, world
+462000:15:Contiki 2.7 started. Node id is set to 15.
+462000:15:Rime started with address 15.0
+462000:15:MAC 0f:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+462000:15:Starting 'Hello world process'
+462000:15:Hello, world
+472000:20:Contiki 2.7 started. Node id is set to 20.
+472000:20:Rime started with address 20.0
+472000:20:MAC 14:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+472000:20:Starting 'Hello world process'
+472000:20:Hello, world
+473000:16:Contiki 2.7 started. Node id is set to 16.
+473000:16:Rime started with address 16.0
+473000:16:MAC 10:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+473000:16:Starting 'Hello world process'
+473000:16:Hello, world
+556000:10:Contiki 2.7 started. Node id is set to 10.
+556000:10:Rime started with address 10.0
+556000:10:MAC 0a:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+556000:10:Starting 'Hello world process'
+556000:10:Hello, world
+594000:12:Contiki 2.7 started. Node id is set to 12.
+594000:12:Rime started with address 12.0
+594000:12:MAC 0c:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+594000:12:Starting 'Hello world process'
+594000:12:Hello, world
+708000:9:Contiki 2.7 started. Node id is set to 9.
+708000:9:Rime started with address 9.0
+708000:9:MAC 09:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+708000:9:Starting 'Hello world process'
+708000:9:Hello, world
+715000:5:Contiki 2.7 started. Node id is set to 5.
+715000:5:Rime started with address 5.0
+715000:5:MAC 05:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+715000:5:Starting 'Hello world process'
+715000:5:Hello, world
+719000:19:Contiki 2.7 started. Node id is set to 19.
+719000:19:Rime started with address 19.0
+719000:19:MAC 13:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+719000:19:Starting 'Hello world process'
+719000:19:Hello, world
+809000:17:Contiki 2.7 started. Node id is set to 17.
+809000:17:Rime started with address 17.0
+809000:17:MAC 11:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+809000:17:Starting 'Hello world process'
+809000:17:Hello, world
+884000:13:Contiki 2.7 started. Node id is set to 13.
+884000:13:Rime started with address 13.0
+884000:13:MAC 0d:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+884000:13:Starting 'Hello world process'
+884000:13:Hello, world
+899000:3:Contiki 2.7 started. Node id is set to 3.
+899000:3:Rime started with address 3.0
+899000:3:MAC 03:00:00:00:00:00:00:00 Rime/CSMA/nullrdc, channel check rate 1000 Hz
+899000:3:Starting 'Hello world process'
+899000:3:Hello, world
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 60000000

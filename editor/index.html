@@ -1,0 +1,84 @@
+<!--
+"""This file contains code for use with "Web2CompileCloud",
+by Italo C. Brito, Geovane Mattos, Marina Vianna, Claudio C. Miceli available from labnet.nce.ufrj.br
+
+Copyright 2015 - UFRJ
+License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+"""
+-->
+<!doctype html>
+<html style="height: 100%;">
+    <head>
+		<meta http-equiv="Content-Language" content="en-us">
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Web2Compile - Plugin</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/dropzone.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	
+		
+		<!--<script src="js/jquery.js" type="text/javascript" charset=utf-8></script>
+		<script src="js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/src-min/ace.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/requirejs/require.js"></script>
+		<script>
+			require({
+			  baseUrl: 'js',
+			  paths: {
+				  text: 'requirejs/text',
+				  i18n: 'requirejs/i18n',
+				  tests: '/js-tests',
+			      domReady: 'requirejs/domReady',
+				  socketio: '/socket.io/socket.io'
+			  }
+			});
+			require(["js/flux-welcome.js"]);
+			require(["js/editor/embeddededitor.js"]);
+		</script>
+		<script src="js/dropzone.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/globals.js" type="text/javascript" charset="utf-8"></script>
+   </head>
+
+<body>
+	<div id="account">GitHub Account: <span class="username">USER</span></div>
+	<div align="center"> 
+		<b><font size=5 color=#2720E9 face=Arial>Web2CompileCloud</font></b> - <button id="openOrion" class=small>Open Orion Editor</button>
+	</div>
+	
+	<div style="float:left;margin-top:5px;" id="files">
+		<fieldset style="height:100%;">
+			<legend> <b>Projects</legend></b>
+			<div style="overflow-y: scroll;" id="maxsizelist">
+				<div id="uploadedList"></div>
+				<div id="projectlist"/>
+	  	  		<div id="list"></div>
+		  	</div>
+  		</fieldset>
+    </div>
+	<div style="float:right;margin-top:5px;" id="edit">
+		<fieldset style="height:100%;">
+			<legend> <b>Editor </legend></b>
+			<div id="buttons" style="padding-bottom:5px;text-align:center;width:100%">
+				Filename: <font id="file_editing"></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onClick="javascript:fileSave();" class=small>Save</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onClick="javascript:fileClose();" class=small>Close</button>
+			</div>
+			
+	  	  	<div id="editor" style="width:100%;" align=left>
+				<div id="contentassist" class="contentassist"></div>
+			</div>
+  
+  		</fieldset>
+	</div>
+
+<BR>
+	 
+	<div style="width:100%;" id="console">
+		<fieldset>
+			<legend><b>Console / <button onClick="javascript:closeConsole();" class="small">Close</button></legend></b>
+			<textarea id="Console-log" style="height:140px;width:100%;" readonly="ReadOnly"></textarea>
+    	 </fieldset>
+ 	</div>
+</body>
+</html>

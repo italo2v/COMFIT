@@ -1,0 +1,50 @@
+{
+  "name": "eclipse-flux",
+  "version": "0.1.3",
+  "description": "Eclipse Flux - The backbone of Flux, a node.js-based server for messaging",
+  "author": {
+    "name": "Eclipse Flux contributors"
+  },
+  "homepage": "http://eclipse.org/flux/",
+  "bugs": {
+    "url": "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Flux"
+  },
+  "license": "Eclipse Public License + Eclipse Distribution License",
+  "dependencies": {
+    "express": "3.0.x",
+    "socket.io": "0.9.x",
+    "socket.io-client": "0.9.x",
+    "mongodb": "1.3.x",
+    "URIjs": "1.13.2",
+    "passport": "0.2.0",
+    "passport-github": "0.1.5",
+    "jsonwebtoken": "0.4.0",
+    "cookie": "0.0.5",
+    "connect": "2.7.2",
+    "when": "3.4.2",
+    "amqplib": "0.2.0",
+    "orion": "0.0.34"
+  },
+  "devDependencies": {
+    "bower": "1.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclipse/flux.git"
+  },
+  "keywords": [
+    "flux",
+    "eclipse",
+    "ide",
+    "cloud",
+    "orion"
+  ],
+  "scripts": {
+    "start": "node startup-all-in-one.js",
+    "prepublish": "cd flux.orion.integration; $(npm bin)/bower install"
+  },
+  "readme": "# Flux server\nThe [Eclipse Flux](https://wiki.eclipse.org/Flux) development tool messaging server.\nFor more details, see the [Flux Repository Readme](https://github.com/eclipse/flux).",
+  "readmeFilename": "README.md",
+  "_id": "eclipse-flux@0.1.3",
+  "_from": "eclipse-flux@"
+}

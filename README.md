@@ -7,7 +7,10 @@ For more details, see the [Flux Repository Readme](https://github.com/eclipse/fl
 
 COMFIT is a development environment for the Internet of Things and supports code generation, simulations, and code compilation of applications for TinyOS and ContikiOS applications.
 
-COMFIT uses GitHub authentication to provide users access, so you will need a GitHub Client ID, Secret and Redirect URI to comply with OAuth (you must change the files github-secret.js and web2compile/webserver.py).
+COMFIT uses GitHub authentication to provide users access, so you will need two GitHub Client IDs, Secrets and Redirect URI to comply with OAuth (you must change the files github-secret.js and web2compile/webserver.py).
+
+One github secret for authentication in web2compile using the Redirect URI (callback URL) on file web2compile/webserver.py: http://yourdomain.com:8080/auth/github/callback
+And another one github secret for authentication in Eclipse FLUX using the Redirect URI (callback URL) on file github-secret.js: http://yourdomain.com:3000/auth/github/callback
 
 Tutorial to create github secret: https://auth0.com/docs/connections/social/github
 

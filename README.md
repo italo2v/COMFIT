@@ -9,7 +9,7 @@ COMFIT is a development environment for the Internet of Things and supports code
 
 COMFIT uses GitHub authentication to provide users access, so you will need two GitHub Client IDs, Secrets and Redirect URI to comply with OAuth (you must change the files github-secret.js and web2compile/webserver.py).
 
-One github secret for authentication in web2compile using the Redirect URI (callback URL) on file web2compile/webserver.py: http://yourdomain.com:8080/auth/github/callback
+One github secret for authentication in web2compile using the Redirect URI (callback URL) on file web2compile/webserver.py: http://yourdomin.com:3000/web2compile/auth/github/callback
 
 And another one github secret for authentication in Eclipse FLUX using the Redirect URI (callback URL) on file github-secret.js: http://yourdomain.com:3000/auth/github/callback
 
